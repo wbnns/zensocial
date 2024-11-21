@@ -1,5 +1,9 @@
 # Zensocial
 
+![Alt](https://repobeats.axiom.co/api/embed/ad68b3ae22cfd10a0d261f83bbe72dcadb0770d1.svg "Repobeats analytics image")
+
+## About
+
 Post to Farcaster and X from Telegram with less distraction
 
 ## Features
