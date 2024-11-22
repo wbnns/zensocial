@@ -19,8 +19,8 @@ Post to Farcaster and X from Telegram with less distraction
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/wbnns/aetherbeam.git
-cd aetherbeam
+git clone https://github.com/wbnns/zensocial.git
+cd zensocial
 ```
 
 2. Install dependencies:
