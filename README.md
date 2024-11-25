@@ -4,13 +4,13 @@
 
 ## About
 
-Post to Farcaster and X from Telegram with less distraction
+Post to Bluesky, Farcaster and X from Telegram with less distraction
 
 ## Features
 
-- Cross-post text content to X and Farcaster simultaneously
+- Cross-post text content to Bluesky, X and Farcaster simultaneously
 - Support for images (automatically uploaded to Imgur for Farcaster)
-- URL embedding in Farcaster posts
+- URL embedding
 - Line break preservation
 - Independent posting (continues if one platform fails)
 - Rate limit handling with exponential backoff
@@ -19,8 +19,8 @@ Post to Farcaster and X from Telegram with less distraction
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/wbnns/aetherbeam.git
-cd aetherbeam
+git clone https://github.com/wbnns/zensocial.git
+cd zensocial
 ```
 
 2. Install dependencies:
@@ -38,6 +38,7 @@ cp .env.example .env
 - Create a Twitter Developer account and get API keys
 - Get your Farcaster authorization header
 - Create an Imgur application and get client ID
+- Generate an app password for your Bluesky account
 
 ## Usage
 
@@ -54,10 +55,8 @@ python src/app.py
 ## Status Messages
 
 The bot provides clear status messages:
-- "Posted to Farcaster, X" - Successfully posted to both platforms
-- "Posted to Farcaster, X failed" - Posted to Farcaster only
-- "Posted to X, Farcaster failed" - Posted to X only
-- "Failed posting to Farcaster and X" - Both platforms failed
+- "Posted: Bluesky, Farcaster, X" - Successfully posted to all platforms
+- "Posted: Bluesky, Farcaster | Failed: X " - Posted to Bluesky and Farcaster only
 
 ## Development
 
